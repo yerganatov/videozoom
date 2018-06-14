@@ -1,0 +1,213 @@
+/*@import "../libs/bootstrap/scss/bootstrap.scss";*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');*/
+
+/*@font-face {*/
+  /*font-family: "Days One";*/
+  /*src: url('../fonts/days-one.ttf') ;*/
+/*}*/
+
+
+/*html {*/
+  /*overflow-x: hidden !important;*/
+/*}*/
+
+/*.html-overflow {*/
+  /*overflow: hidden!important;*/
+/*}*/
+/** {*/
+  /*box-sizing: border-box;*/
+  /*font-family:'Roboto Light', sans-serif;*/
+/*}*/
+
+/*p,h1,h2,h3,h4,h5,h6,span {*/
+  /*cursor: default;*/
+/*}*/
+
+/*a, a:hover, a:active {*/
+  /*cursor: pointer;*/
+  /*text-decoration: none;*/
+/*}*/
+/*img {*/
+  /*user-drag: none;*/
+  /*user-select: none;*/
+  /*-moz-user-select: none;*/
+  /*-webkit-user-drag: none;*/
+  /*-webkit-user-select: none;*/
+  /*-ms-user-select: none;*/
+/*}*/
+
+/*@function rem($size) {*/
+  /*@return $size / 16 * 1rem;*/
+/*}*/
+/**{*/
+  /*@media (max-width: 1199px) {*/
+    /*font-size: 13px;*/
+  /*}*/
+  /*@media (max-width: 991px) {*/
+    /*font-size: 12px;*/
+  /*}*/
+  /*@media (max-width: 880px) {*/
+    /*font-size: 10px;*/
+  /*}*/
+  /*@media (max-width: 768px) {*/
+    /*font-size: 14px;*/
+  /*}*/
+/*}*/
+
+/*body {*/
+  /*background: -moz-linear-gradient(27deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* ff3.6+ *!*/
+  /*background: -webkit-linear-gradient(27deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* safari5.1+,chrome10+ *!*/
+  /*background: -o-linear-gradient(27deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* opera 11.10+ *!*/
+  /*background: -ms-linear-gradient(27deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* ie10+ *!*/
+  /*background: linear-gradient(63deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 80%); !* w3c *!*/
+/*}*/
+/*.main-section {*/
+  /*background-color: #030a0d;*/
+  /*border-radius: 0px 0px 50% 50% / 0px 0px 20% 20% ;*/
+  /*position: relative;*/
+  /*padding-bottom: 10rem;*/
+  /*.header {*/
+    /*img {*/
+      /*height: 4rem;*/
+      /*width:auto;*/
+    /*}*/
+    /*.menu-anchors {*/
+      /*a {*/
+        /*color: #b0bdff;*/
+        /*font-size: 1rem;*/
+      /*}*/
+    /*}*/
+    /*.email {*/
+      /*img {*/
+        /*height: 2rem;*/
+        /*width:auto;*/
+      /*}*/
+      /*a {*/
+        /*color: white;*/
+        /*text-decoration: none;*/
+        /*font-size: 0.8rem;*/
+        /*transition: .3s;*/
+        /*&:hover {*/
+          /*transition: .3s;*/
+          /*color: #b0bdff;*/
+        /*}*/
+      /*}*/
+    /*}*/
+    /*.phones {*/
+      /*img {*/
+        /*height: 2rem;*/
+        /*width:auto;*/
+      /*}*/
+      /*a {*/
+        /*color: white;*/
+        /*text-decoration: none;*/
+        /*font-size: 1rem;*/
+        /*transition: .3s;*/
+        /*&:hover {*/
+          /*transition: .3s;*/
+          /*color: #b0bdff;*/
+        /*}*/
+      /*}*/
+    /*}*/
+  /*}*/
+  /*.middle-circle {*/
+    /*.left-text, .right-text {*/
+      /*margin-top: 8rem;*/
+      /*width: 14rem;*/
+      /*h4 {*/
+        /*font-weight: bold;*/
+        /*color: #92a1ef;*/
+        /*font-size: 1.3rem;*/
+      /*}*/
+      /*p {*/
+        /*opacity: 0.5;*/
+        /*color: #a395ff;*/
+        /*font-size: 0.8rem;*/
+      /*}*/
+    /*}*/
+    /*.circle {*/
+      /*margin: 0 -3rem -3rem -3rem ;*/
+      /*height: 40rem;*/
+      /*width: 40rem;*/
+      /*background-image: url(../images/big-circle-main.png);*/
+      /*background-repeat:no-repeat;*/
+      /*-webkit-background-size: 12px;*/
+      /*background-size: 120% 120%;*/
+      /*background-position: center;*/
+      /*h3,h4,h5,h6,p,a {*/
+        /*font-family:'Days One',sans-serif;*/
+      /*}*/
+      /*h3 {*/
+        /*font-size: 3rem;*/
+      /*}*/
+      /*h4 {*/
+        /*color: #6aa1e5;*/
+        /*font-size: 1.5rem;*/
+      /*}*/
+      /*h5 {*/
+        /*color: #6aa1e5;*/
+        /*opacity: .5;*/
+        /*font-size: 1rem;*/
+      /*}*/
+      /*h6 {*/
+        /*line-height: 50%;*/
+        /*font-size: 12rem;*/
+        /*position: relative;*/
+        /*span {*/
+          /*height: 100%;*/
+          /*right:3.8rem;*/
+          /*top:-1.3rem;*/
+          /*position: absolute;*/
+          /*img {*/
+            /*width: 1.5rem;*/
+            /*height: auto;*/
+          /*}*/
+        /*}*/
+      /*}*/
+      /*p {*/
+        /*font-size: 3.5rem;*/
+      /*}*/
+      /*a {*/
+        /*color: #fff;*/
+        /*font-size: .7rem;*/
+        /*border: 2px solid white;*/
+        /*border-radius: 30px;*/
+        /*padding: .5rem 2rem;*/
+        /*transition: .4s;*/
+        /*&:hover {*/
+          /*transition: .4s;*/
+          /*color: #000;*/
+          /*background-color: white;*/
+        /*}*/
+      /*}*/
+    /*}*/
+  /*}*/
+  /*h3 {*/
+    /*font-size: 1.3rem;*/
+  /*}*/
+  /*.notebook {*/
+    /*position: absolute;*/
+    /*bottom: -10rem;*/
+    /*height: 20rem;*/
+    /*width:auto;*/
+    /*margin-left: auto;*/
+    /*margin-right:auto;*/
+  /*}*/
+/*}*/
+/*.video-section {*/
+  /*padding-top: 15rem;*/
+  /*width: 100%;*/
+  /*background: -moz-linear-gradient(31deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* ff3.6+ *!*/
+  /*background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(127,46,218,1)), color-stop(100%, rgba(61,68,227,1))); !* safari4+,chrome *!*/
+  /*background: -webkit-linear-gradient(31deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* safari5.1+,chrome10+ *!*/
+  /*background: -o-linear-gradient(31deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* opera 11.10+ *!*/
+  /*background: -ms-linear-gradient(31deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* ie10+ *!*/
+  /*background: linear-gradient(59deg, rgba(127,46,218,1) 0%, rgba(61,68,227,1) 100%); !* w3c *!*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f2eda', endColorstr='#3d44e3',GradientType=1 );*/
+  /*//border-radius: 50% 50% 0px 0px / 20% 20% 0px 0px;*/
+
+  /*h3 {*/
+    /*font-family:'Days One',sans-serif;*/
+
+  /*}*/
+/*}*/
